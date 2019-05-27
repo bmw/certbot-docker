@@ -1,0 +1,7 @@
+#!/bin/bash
+set -e
+
+git clone https://github.com/certbot/certbot.git --branch ${SOURCE_BRANCH} --single-branch --depth 1 ./certbot
+docker build -f ./certbot/Dockerfile -t certbot/certbot:${DOCKER_TAG} ./certbot
+
+mv ./certbot/certbot .

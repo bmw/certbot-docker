@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e
+
+PLUGIN_NAME=${DOCKER_REPO//*\//}
+docker build --build-arg CERTBOT_VERSION=${DOCKER_TAG} --build-arg PLUGIN_NAME=${PLUGIN_NAME} -f ${DOCKERFILE_PATH} -t ${IMAGE_NAME} .
