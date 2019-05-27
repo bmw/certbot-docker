@@ -1,4 +1,0 @@
-#!/bin/bash
-
-git clone https://github.com/certbot/certbot.git --branch "v${SOURCE_BRANCH}" --single-branch --depth 1 certbot
-docker build -f ${DOCKERFILE_PATH} -t ${IMAGE_NAME} certbot
