@@ -8,7 +8,7 @@ WORKDIR /opt/certbot
 COPY certbot/CHANGELOG.md certbot/README.rst certbot/setup.py /opt/certbot/src/
 
 # Generate constraints file to pin dependency versions
-COPY /opt/certbot/certbot/letsencrypt-auto-source/pieces/dependency-requirements.txt /opt/certbot/dependency-requirements.txt
+COPY certbot/letsencrypt-auto-source/pieces/dependency-requirements.txt /opt/certbot/dependency-requirements.txt
 COPY certbot/tools /opt/certbot/tools
 RUN sh -c 'cat dependency-requirements.txt | /opt/certbot/tools/strip_hashes.py > /opt/certbot/unhashed_requirements.txt'
 RUN sh -c 'cat tools/dev_constraints.txt unhashed_requirements.txt | /opt/certbot/tools/merge_requirements.py > /opt/certbot/docker_constraints.txt'
