@@ -1,7 +1,8 @@
 ARG CERTBOT_VERSION
-ARG PLUGIN_NAME
 
 FROM certbot/certbot:${CERTBOT_VERSION}
+
+ARG PLUGIN_NAME
 
 COPY certbot/certbot-${PLUGIN_NAME} /opt/certbot/src/certbot-${PLUGIN_NAME}
 
