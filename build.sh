@@ -16,6 +16,7 @@ Cleanup() {
         rm -rf "$WORK_DIR/plugin/certbot" || true
         rm -rf "$WORK_DIR/core/certbot" || true
     fi
+    popd 2> /dev/null || true
 }
 
 WORK_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
