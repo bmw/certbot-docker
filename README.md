@@ -1,7 +1,7 @@
 # ![](https://certbot.eff.org/images/certbot-logo-1A.svg)
 [![](https://img.shields.io/badge/current-0.34.0-blue.svg)](https://github.com/certbot/certbot.git) &nbsp; [![](https://travis-ci.com/certbot/certbot.svg?branch=0.34.x)](https://travis-ci.com/certbot/certbot)
 
-## Certbot core
+## Certbot Core
 
 * [certbot](https://hub.docker.com/r/certbot/certbot)
 
@@ -24,5 +24,5 @@
 
 Source:
 
-* [docker] (https://www.github.com/certbot/certbot-docker.git)
-* [certbot] (https://www.github.com/certbot/certbot.git)
+* [docker](https://www.github.com/certbot/certbot-docker.git)
+* [certbot](https://www.github.com/certbot/certbot.git)
