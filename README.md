@@ -7,20 +7,20 @@
 
 ## Certbot DNS plugins
 
-* [dns-dnsmadeeasy](https://hub.docker.com/certbot/dns-dnsmadeeasy)
-* [dns-dnsimple](https://hub.docker.com/certbot/dns-dnsimple)
-* [dns-ovh](https://hub.docker.com/certbot/dns-ovh)
-* [dns-cloudflare](https://hub.docker.com/certbot/dns-cloudflare)
-* [dns-cloudxns](https://hub.docker.com/certbot/dns-cloudxns)
-* [dns-digitalocean](https://hub.docker.com/certbot/dns-digitalocean)
-* [dns-google](https://hub.docker.com/certbot/dns-google)
-* [dns-luadns](https://hub.docker.com/certbot/dns-luadns)
-* [dns-nsone](https://hub.docker.com/certbot/dns-nsone)
-* [dns-rfc2136](https://hub.docker.com/certbot/dns-rfc2136)
-* [dns-route53](https://hub.docker.com/certbot/dns-route53)
-* [dns-gehirn](https://hub.docker.com/certbot/dns-gehirn)
-* [dns-linode](https://hub.docker.com/certbot/dns-linode)
-* [dns-sakuracloud](https://hub.docker.com/certbot/dns-sakuracloud)
+* [dns-dnsmadeeasy](https://hub.docker.com/r/certbot/dns-dnsmadeeasy)
+* [dns-dnsimple](https://hub.docker.com/r/certbot/dns-dnsimple)
+* [dns-ovh](https://hub.docker.com/r/certbot/dns-ovh)
+* [dns-cloudflare](https://hub.docker.com/r/certbot/dns-cloudflare)
+* [dns-cloudxns](https://hub.docker.com/r/certbot/dns-cloudxns)
+* [dns-digitalocean](https://hub.docker.com/r/certbot/dns-digitalocean)
+* [dns-google](https://hub.docker.com/r/certbot/dns-google)
+* [dns-luadns](https://hub.docker.com/r/certbot/dns-luadns)
+* [dns-nsone](https://hub.docker.com/r/certbot/dns-nsone)
+* [dns-rfc2136](https://hub.docker.com/r/certbot/dns-rfc2136)
+* [dns-route53](https://hub.docker.com/r/certbot/dns-route53)
+* [dns-gehirn](https://hub.docker.com/r/certbot/dns-gehirn)
+* [dns-linode](https://hub.docker.com/r/certbot/dns-linode)
+* [dns-sakuracloud](https://hub.docker.com/r/certbot/dns-sakuracloud)
 
 ## Sources:
 
